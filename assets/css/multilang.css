@@ -1,12 +1,27 @@
-div.mib-multi-lang {position: relative;}
+div.mib-multi-lang {
+    position: relative;
+}
 
-.mib-multi-lang .locales  { position: absolute; right: 1px; top: 5px; z-index: 99999; }
+.mib-multi-lang .locales  {
+    position: absolute;
+    right: 1px;
+    top: 5px;
+    z-index: 99999;
+}
 
-.mib-multi-lang .locales .locale { display: none; cursor: pointer; }
-.mib-multi-lang .locales .locale.active { display: block; cursor: not-allowed; }
+.mib-multi-lang .locales .locale {
+    display: none;
+    cursor: pointer;
+}
 
-.mib-multi-lang .locales:hover .locale { display: block; }
-.mib-multi-lang .translations { display: none; }
+.mib-multi-lang .locales .locale.active {
+    display: block; cursor: not-allowed;
+}
 
-/*.mib-multi-lang input[type="text"], .mib-multi-lang textarea { display: none; }*/
-/*.mib-multi-lang input[type="text"].active, .mib-multi-lang textarea.active { display: inherit; }*/
+.mib-multi-lang .locales:hover .locale {
+    display: block;
+}
+
+.mib-multi-lang .translations {
+    display: none;
+}
