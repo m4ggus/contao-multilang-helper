@@ -1,0 +1,22 @@
+{
+  "name":"mib/contao-multilang-helper",
+  "description":"DCA Multi Language Fields",
+  "keywords":["contao","language", "dca", "backend"],
+  "type":"contao-module",
+  "license":"MIT",
+  "require":{
+    "php":">=5.4",
+    "contao/core":">=3,<4",
+    "contao-community-alliance/composer-installer":"*"
+  },
+  "autoload":{
+    "classmap":["src/"]
+  },
+  "extra":{
+    "contao":{
+      "sources":{
+        "":"system/modules/mib-multilang-helper"
+      }
+    }
+  }
+}
